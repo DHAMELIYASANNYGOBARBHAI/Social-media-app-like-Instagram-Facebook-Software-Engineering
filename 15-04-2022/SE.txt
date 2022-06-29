@@ -1,0 +1,14 @@
+Hello sir, I am Kenil Bhingradiya, leader of group 17.
+Today, we are going to present our work done on the project as a part of Software Engineering course.
+This project is about create and document social media application.
+For this we have created website called Fanfield.
+More about this website will be explained in following slides.
+
+Next....	
+First of all there is context diagram of our project.
+In our software, we have socail media app container which is managed by system admin here it is by us, who can see and edit feature information and user information.
+it can be modified by admin to make this software better.
+On the other hand there is users who can access features of this sotware, get update for it, in order to do this all user have to first log in to this app. 
+This is our context diagram for our project.
+
+Now i will handover mic to my friend Bhadrayu to continue....
