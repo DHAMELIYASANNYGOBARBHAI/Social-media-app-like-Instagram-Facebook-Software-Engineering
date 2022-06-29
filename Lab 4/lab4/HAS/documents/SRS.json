@@ -1,0 +1,1500 @@
+{
+  "id": "SRS",
+  "guid": "3e5da1e6-ae7e-4168-bbc5-2f134ccea35d",
+  "name": "Software Requirements Specification",
+  "lastId": 40,
+  "createdOn": "2022-03-06T08:16:12.199Z",
+  "createdBy": {
+    "name": "Devangi Naliyadhara",
+    "email": "201901065@daiict.ac.in",
+    "company": "DAIICT"
+  },
+  "lastChangedOn": "2022-03-06T09:59:59.806Z",
+  "lastChangedBy": {
+    "name": "Devangi Naliyadhara",
+    "email": "201901065@daiict.ac.in",
+    "company": "DAIICT"
+  },
+  "helpRef": "ISO/IEC/IEEE 29148:2018",
+  "data": [
+    {
+      "id": "1",
+      "guid": "3bb1b4c0-1640-4739-a2a1-364892a716b8",
+      "heading": "Introduction",
+      "text": "<p>Project Name: Hotel Automation Software</p><p>Developers: &nbsp;Devangi Naliyadhara, Kenil Bhingradiya</p>",
+      "helpRef": "8.5",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901065@daiict.ac.in",
+            "name": "Devangi Naliyadhara"
+          },
+          "changedOn": "2022-03-06T08:24:32.245Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>Project Name: Hotel Automation Software</p><p>Project Owners</p>"
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901065@daiict.ac.in",
+            "name": "Devangi Naliyadhara"
+          },
+          "changedOn": "2022-03-06T08:25:39.983Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>Project Name: Hotel Automation Software Developers: &nbsp;Devangi Naliyadhara, Kenil Bhigradiya</p>"
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901065@daiict.ac.in",
+            "name": "Devangi Naliyadhara"
+          },
+          "changedOn": "2022-03-06T08:26:33.633Z"
+        }
+      ],
+      "children": [
+        {
+          "id": "2",
+          "guid": "0f8b3778-6fd5-4c77-a38a-e77d0803948e",
+          "heading": "Purpose",
+          "text": "<p>The software should be able to automate hotel inventory data such as room booking by AC/ non-AC type, arrival time, advance paid, approximate duration of stay for guests. Most important feature should be able to generate entire bill of guest while checking out from hotel.&nbsp;</p>",
+          "helpRef": "9.6.2",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T08:33:10.746Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The software should be able to&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T08:34:24.864Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The software should be able to automate&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T08:35:50.240Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The software should be able to automate hotel management&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T08:36:32.787Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The software should be able to automate hotel management such as room booking by AC/ non-AC type,&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T08:38:26.172Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The software should be able to automate hotel inventory data such as room booking by AC/ non-AC type, arrival time, advance paid, approximate duration of stay for&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T08:41:41.800Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The software should be able to automate hotel inventory data such as room booking by AC/ non-AC type, arrival time, advance paid, approximate duration of stay for guests.</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T08:43:19.100Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The software should be able to automate hotel inventory data such as room booking by AC/ non-AC type, arrival time, advance paid, approximate duration of stay for guests. Most important feature should be&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T08:44:21.405Z"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "guid": "22e7d162-38e4-44f0-a330-4fe04f521737",
+          "heading": "Scope",
+          "text": "<ul><li>The user of this software will be Hotel Owner, Receptionist, Catering services manager.</li><li>Hotel owner can track entire guest lists, number of occupied rooms, available rooms and inventory.</li></ul><p><br></p><p><br></p>",
+          "helpRef": "9.6.3",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T08:44:49.291Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The user of this software will be Hotel Owner,&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T08:45:10.832Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The user of this software will be Hotel Owner, Receptionist</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T08:45:41.710Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The user of this software will be Hotel Owner, Receptionist, Catering services manager</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T08:46:19.147Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<ul><li>The user of this software will be Hotel Owner, Receptionist, Catering services manager.</li><li><br></li></ul><p><br></p><p><br></p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T08:47:12.545Z"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "guid": "f795f02c-c0da-497b-827c-3436dcf98aa3",
+          "heading": "Product perspective",
+          "text": "<p>HAS is a standalone application which includes all the features and functionalities mentioned in the product functions sections.</p><p>It also includes a portal to banking services to receive online payments for billing.</p>",
+          "helpRef": "9.6.4",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:00:25.827Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "5",
+              "guid": "d38bb07f-e332-4cae-afca-79c6a6762a3b",
+              "heading": "System interfaces",
+              "text": "<p>This is an application which runs on all the latest version of Android/IOS. It also has an Web Application which runs on almost all the newer versions of the browsers.&nbsp;</p>",
+              "helpRef": "9.6.4.1",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:00:55.459Z"
+                }
+              ]
+            },
+            {
+              "id": "6",
+              "guid": "f066c685-571d-4115-acdc-53e642fed0d2",
+              "heading": "User interfaces",
+              "text": "<ul><li>&nbsp;These databases include hotel rooms and customers information. &nbsp;These can be modified by the end users.</li><li>&nbsp; The room database will include the room numbers and if they are vacant or occupied. &nbsp;</li><li>The customers information database will contain all the information of the customer such as first name, last name, number of occupants, assigned room, default room rate(may be changed), phone number, whether or not the room is guaranteed, credit card number, confirmation number, automatic cancellation date, expected check in date and time, actual check in date and time, expected check out date and time, amount owed by customer, and abbreviated customer feedback.</li></ul>",
+              "helpRef": "9.6.4.2",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:03:18.278Z"
+                }
+              ]
+            },
+            {
+              "id": "7",
+              "guid": "96b8de7f-2a92-45b8-99b6-65aa0b8c4c17",
+              "heading": "Hardware interfaces",
+              "text": "<ul><li style=\"text-align: left;\">&nbsp;It should have a facility to connect the app to the printer for printing bills.</li><li style=\"text-align: left;\">It requires a scanning portal to scan the digital key while opening a door as well as credit and debit card scanner for payment.&nbsp;</li></ul>",
+              "helpRef": "9.6.4.3",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:05:16.314Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li style=\"text-align: left;\">&nbsp;It should have a facility to connect the app to the printer for printing bills.</li><li style=\"text-align: left;\">It requires a scanning portal to scan the medicines while generating a bill or updating inventory.</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:05:57.942Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li style=\"text-align: left;\">&nbsp;It should have a facility to connect the app to the printer for printing bills.</li><li style=\"text-align: left;\"><br></li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:08:28.672Z"
+                }
+              ]
+            },
+            {
+              "id": "8",
+              "guid": "94fb7d77-3e20-4c7f-8d50-074eb87320ed",
+              "heading": "Software interfaces",
+              "text": "<ul><li style=\"text-align: left;\">The application will interact with an external Database Management System to store data and query it effectively</li><li style=\"text-align: left;\">The application will interact with external bank portal to verify account details and make payments.</li></ul>",
+              "helpRef": "9.6.4.4",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:09:12.578Z"
+                }
+              ]
+            },
+            {
+              "id": "9",
+              "guid": "654fbb11-10f1-4e56-baba-c89d1f9e58c4",
+              "heading": "Communications interfaces",
+              "text": "<p>The System shall be using HTTP/HTTPS for communication over Internet and for intranet communications, it shall use TCP/IP protocol&nbsp;</p>",
+              "helpRef": "9.6.4.5",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:11:22.367Z"
+                }
+              ]
+            },
+            {
+              "id": "10",
+              "guid": "d1d49a30-c0ae-4694-a7b5-f857ef48a0b4",
+              "heading": "Memory constraints",
+              "text": "<p>There are no specified constraints on memory however the storage of data should be optimized so that queries run optimally.</p>",
+              "helpRef": "9.6.4.6",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:12:51.692Z"
+                }
+              ]
+            },
+            {
+              "id": "11",
+              "guid": "6d4840d4-6cbe-4856-b8e8-419e40056f68",
+              "heading": "Operations",
+              "text": "<ul><li style=\"text-align: left;\">Different users should be given rights to access the inventory and use software features accordingly.</li><li style=\"text-align: left;\">Printing food receipts, bills, order receipts should be provided.</li><li>Inventory management should be done on daily basis which includes maintaining number of available and occupied rooms. Data should be backed up on regular intervals to avoid any data loss during system failure.&nbsp;</li></ul>",
+              "helpRef": "9.6.4.7",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:16:34.903Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li style=\"text-align: left;\">Different users should be given rights to access the inventory and use software features accordingly.</li><li style=\"text-align: left;\">Printing food receipts, bills, order receipts should be provided.</li><li>Inventory management should be done on daily basis which includes maintaining the quantity of medicine as per the threshold. Data should be backed up on regular intervals to avoid any data loss during system failure.&nbsp;</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:18:24.297Z"
+                }
+              ]
+            },
+            {
+              "id": "12",
+              "guid": "82834e37-2c0c-4549-9bc7-7c909fb78016",
+              "heading": "Site adaptation requirements",
+              "helpRef": "9.6.4.8",
+              "type": "SEC"
+            },
+            {
+              "id": "13",
+              "guid": "708c8dbe-76c0-4593-91c1-99e427f80e64",
+              "heading": "Interfaces with  services",
+              "text": "<ul><li style=\"text-align: left;\">Should Interact with external bank portals.</li><li style=\"text-align: left;\">Should interact with external hardware such as printers, scanners etc.</li><li style=\"text-align: left;\">Should interact with the any cloud platform if required.</li></ul>",
+              "helpRef": "9.6.4.9",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:19:09.779Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "guid": "4cc65ea6-fee0-42bd-86e1-25d8bb97afbb",
+          "heading": "Product functions",
+          "text": "<p>Reservation and Booking System</p><ul><li>&nbsp;Allows for typing in customer information</li><li>Has a default room rate that is adjustable</li><li>&nbsp;Includes a description field for the changed rate</li><li>&nbsp; When a customer checks in, the room number will be changed to occupied in the database</li><li>&nbsp;Ability to modify a reservation</li><li>When no rooms are available and a customer would like to extend their reservation their information will be placed in a database and when there are rooms available the first customer on the list will have the room</li><li>When a customer checks out the amount owed is displayed</li><li>&nbsp;If the internal clock states that is a customer’s time to have checked out and customer has not checked out, adds an extra night to amount owed and provides a report</li><li>Records that room is vacant</li><li>Records payment</li><li>&nbsp;Allows for space to write customer’s feedback&nbsp;</li></ul><p><br></p><p>Tracking and Selling Food System</p><ul><li>Tracks all meals purchased</li><li>Charges the current room as necessary</li></ul><p>&nbsp;</p><p><br></p><ul><li>&nbsp;Reports generated to audit hotel occupancy, future occupancy, room revenue, and food revenue.</li><li>Exception reports listing exceptions to the normal cost.</li><li>Allows addition, deletion and modification of information on rooms and rates, menu items and prices, user profiles.</li><li>&nbsp;Creation of users and assigning passwords.</li></ul>",
+          "helpRef": "9.6.5",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:20:27.867Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p style=\"text-align: left;\">Should Interact with external bank portals.</p><p style=\"text-align: left;\">2. Should interact with external hardware such as printers, scanners etc.</p><p style=\"text-align: left;\">3. Should interact with the any cloud platform if required.</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:23:19.500Z"
+            }
+          ]
+        },
+        {
+          "id": "15",
+          "guid": "f8efe79f-70ca-4d1c-b38b-175a606a9e76",
+          "heading": "User  characteristics",
+          "text": "<p>A. Hotel Manager/Owner&nbsp;</p><ul><li>Manager have every access to the hotel system. Manager is solely responsible for managing hotel resources and staffs. Manager can view any report such as financial report, customer information, booking information, and room information, analyze them and take the decision accordingly.</li></ul><p><br></p><p>B. Receptionist</p><ul><li>Hotel Receptionist sole purpose is to provide the quality customer service. She have least access than manager. She can manage the booking details. She can search for availability of rooms, add the customer, confirm the booking, and update the booking details.&nbsp;</li></ul><p><br></p><p>C. Customers&nbsp;</p><ul><li>Customer are vital part of the system. Customer have access to view the vacant room information and price range. They should be able to confirm the booking and cancel it if necessary. Customers have access to customer service desk portal to forward their inquiry. Customer should at least be capable to use the web UI interface.&nbsp;</li></ul><p><br></p>",
+          "helpRef": "9.6.6",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:25:01.602Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>A. Hotel Manager&nbsp;</p><p>B. Receptionist</p><p>&nbsp;C. Customers&nbsp;</p><ul><li><br></li></ul>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:26:19.913Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>A. Hotel Manager/Owner&nbsp;</p><ul><li>Manager have every access to the hotel system. Manager is solely responsible for managing hotel resources and staffs. Manager can view any report such as financial report, customer information, booking information, and room information, analyze them and take the decision accordingly.</li></ul><p>B. Receptionist</p><p>C. Customers&nbsp;</p><p><br></p><p><br></p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:26:58.560Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>A. Hotel Manager/Owner&nbsp;</p><ul><li>Manager have every access to the hotel system. Manager is solely responsible for managing hotel resources and staffs. Manager can view any report such as financial report, customer information, booking information, and room information, analyze them and take the decision accordingly.</li></ul><p><br></p><p>B. Receptionist</p><ul><li>Hotel Receptionist sole purpose is to provide the quality customer service. She have least access than manager. She can manage the booking details. She can search for availability of rooms, add the customer, confirm the booking, and update the booking details.&nbsp;</li></ul><p><br></p><p>C. Customers&nbsp;</p><p><br></p><p><br></p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:27:27.761Z"
+            }
+          ]
+        },
+        {
+          "id": "16",
+          "guid": "5bff9782-c496-4896-a92e-11414eac34f0",
+          "heading": "Limitations",
+          "text": "<ul><li style=\"text-align: left;\">&nbsp;Don't have efficient and cheap data backup plan.</li><li style=\"text-align: left;\">Parallel update to database by multiple users may lead to inconsistent state which we get to know at the end of generating any bill.</li></ul>",
+          "helpRef": "9.6.7",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:28:39.370Z"
+            }
+          ]
+        },
+        {
+          "id": "17",
+          "guid": "cd6f3256-fa72-44db-9430-11a76a24e149",
+          "heading": "Assumptions and dependencies",
+          "text": "<ul><li>&nbsp;Assume that Owner, Manager and Users have Internet access and they are familiar with user interface.&nbsp;</li><li>Assumed the bank portals will be available and allow users to make payments.</li><li>Assumed the database to be scalable</li></ul>",
+          "helpRef": "9.6.8",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:30:54.448Z"
+            }
+          ]
+        },
+        {
+          "id": "18",
+          "guid": "8921412a-3244-407a-9494-373a84d57882",
+          "heading": "Definitions",
+          "helpRef": "9.2.3",
+          "type": "SEC"
+        },
+        {
+          "id": "19",
+          "guid": "186e9cb4-a94b-42e3-b252-306ec528eaee",
+          "heading": "Acronyms and abbreviations",
+          "text": "<p style=\"text-align: left;\">HAS - Hotel Automation Software</p><p style=\"text-align: left;\">REST - Representational State Transfer</p><p style=\"text-align: left;\">OS - Operating System</p><p style=\"text-align: left;\">ACID - Atomicity, Consistency, Isolation, and Durability</p><p style=\"text-align: left;\">DBMS - Database Management System</p><p style=\"text-align: left;\">GUI - Graphical User Interface</p><p style=\"text-align: left;\">HTTPS - Hyper Text Transfer Protocol Secure</p><p style=\"text-align: left;\"><br></p>",
+          "helpRef": "9.2.5",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:33:02.625Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "guid": "c26ca8e1-be88-4750-873f-72122ce8fd54",
+      "heading": "Requirements",
+      "helpRef": "9.6.10",
+      "type": "SEC",
+      "children": [
+        {
+          "id": "21",
+          "guid": "333a845c-20ad-4798-82f7-50457f2b7362",
+          "heading": "External interfaces",
+          "text": "<ul><li style=\"text-align: left;\">Cloud Portal - For deploying certain functionalities on cloud.</li><li style=\"text-align: left;\">&nbsp;Bank Portal - for issuing payment requests.</li></ul>",
+          "helpRef": "9.6.11",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:33:44.548Z"
+            }
+          ]
+        },
+        {
+          "id": "22",
+          "guid": "28ca6933-709f-49e9-b31e-cfe012732180",
+          "heading": "Functions",
+          "helpRef": "9.6.12",
+          "type": "SEC",
+          "children": [
+            {
+              "id": "35",
+              "guid": "22fab030-55ba-4d38-b8b5-9ed403c30b6e",
+              "heading": "User Registration",
+              "text": "<ul><li>The Customer should be able to register with their details&nbsp;</li><li>&nbsp;The system should record following customer details into member database. Name, Email, Password, Address, and DOB.</li><li>&nbsp;The system shall send verification message to email&nbsp;</li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:40:27.492Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:40:58.740Z"
+                }
+              ]
+            },
+            {
+              "id": "36",
+              "guid": "9e23cc75-b042-4043-91d7-02dfdf8258f3",
+              "heading": "Logging In ",
+              "text": "<ul><li>.The system should verify the customer email &amp; password against the member database when logging in.</li><li>&nbsp;After login, member should be directed to Home screen&nbsp;</li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:41:22.372Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:41:44.983Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:42:16.007Z"
+                }
+              ]
+            },
+            {
+              "id": "37",
+              "guid": "71a09d14-8ccd-4d21-b6a8-172efd4db2f0",
+              "heading": "Reservation",
+              "text": "<ul><li>The system should enable customer to check for availability of rooms&nbsp;</li><li>&nbsp;The system should display rate for all rooms.</li><li>The system should allow customer to confirm or cancel the booking&nbsp;</li><li>&nbsp;The system should record booking details into database&nbsp;</li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:42:21.192Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:42:35.955Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:43:07.329Z"
+                }
+              ]
+            },
+            {
+              "id": "38",
+              "guid": "7c5a76e0-b5dd-49cb-8676-13685687ed08",
+              "heading": "Receptionist Access",
+              "text": "<ul><li>The system should allow Receptionist to update, add or delete booking information&nbsp;</li><li>The system should provide customer desk portal access to receptionist for providing response to customer inquiry&nbsp;</li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:43:38.145Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:43:44.437Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:44:10.597Z"
+                }
+              ]
+            },
+            {
+              "id": "39",
+              "guid": "6b03dbd6-dd35-4094-8ad8-8a6d12418470",
+              "heading": "Manager Access",
+              "text": "<ul><li>The system should generate financial and customer report for manager&nbsp;</li><li>&nbsp;The system should enable manager full modification access to customer ,booking and room information&nbsp;</li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:44:18.325Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:44:21.994Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:44:41.018Z"
+                }
+              ]
+            },
+            {
+              "id": "40",
+              "guid": "f8963561-2576-4102-82d0-980227682e14",
+              "heading": "Payment Management System",
+              "text": "<ul><li>The system should allow customer to pay bill via online using credit or debit card.</li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:44:47.934Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:44:51.276Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901065@daiict.ac.in",
+                    "name": "Devangi Naliyadhara"
+                  },
+                  "changedOn": "2022-03-06T09:45:12.183Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "34",
+          "guid": "84ff5425-3a88-4a5a-b8fa-7b03f766f622",
+          "deleted": true,
+          "history": [
+            {
+              "affectedNodeId": "20",
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:36:50.405Z",
+              "docId": "SRS",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:37:32.610Z"
+            },
+            {
+              "attributesChanged": {
+                "deleted": true
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:37:37.660Z"
+            },
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:38:47.415Z"
+            }
+          ]
+        },
+        {
+          "id": "33",
+          "guid": "1aaa77a1-aa5b-442f-963e-ef858f7bf862",
+          "deleted": true,
+          "history": [
+            {
+              "affectedNodeId": "20",
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:36:38.884Z",
+              "docId": "SRS",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:37:29.675Z"
+            },
+            {
+              "attributesChanged": {
+                "deleted": true
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:37:40.300Z"
+            },
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:40:04.117Z"
+            }
+          ]
+        },
+        {
+          "id": "32",
+          "guid": "ef54a4df-6e7e-41cd-8a93-23f7c252355b",
+          "deleted": true,
+          "heading": "2.2.1 User Registration",
+          "text": "<ul><li>The Customer should be able to register with their details&nbsp;</li><li>&nbsp;The system should record following customer details into member database. Name, Email, Password, Address, and DOB.</li><li>&nbsp;The system shall send verification message to email&nbsp;</li></ul>",
+          "history": [
+            {
+              "affectedNodeId": "20",
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:35:15.498Z",
+              "docId": "SRS",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:35:49.969Z"
+            },
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:36:37.468Z"
+            },
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:40:22.414Z"
+            }
+          ]
+        },
+        {
+          "id": "23",
+          "guid": "d4ef4f8a-d314-4960-b7d3-9d1100609971",
+          "heading": "Usability requirements",
+          "text": "<ul><li style=\"text-align: left;\">Easy UI for new users.</li><li style=\"text-align: left;\">Multi language support.</li><li style=\"text-align: left;\">&nbsp;Feedback system</li></ul>",
+          "helpRef": "9.6.13",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:46:32.772Z"
+            }
+          ]
+        },
+        {
+          "id": "24",
+          "guid": "abd7f7b5-90c8-498c-9394-a610f830bce0",
+          "heading": "Performance requirements",
+          "text": "<ul><li>Data in database should be updated within 2 seconds.&nbsp;</li><li>Query results must return results within 5 seconds.</li><li>Load time of UI Should not take more than 2 seconds.</li><li>Login Validation should be done within 3 seconds.</li><li>Response to customer inquiry must be done within 5 minutes.&nbsp;</li></ul>",
+          "helpRef": "9.6.14",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:47:53.940Z"
+            }
+          ]
+        },
+        {
+          "id": "25",
+          "guid": "a84877a4-eb6e-48c0-bb8c-454054570e2a",
+          "heading": "Logical database requirements",
+          "text": "<p>Booking/Reservation System</p><ul><li>Customer first name, last name, address, phone number</li><li>Number of occupants</li><li>&nbsp;Assigned room</li><li>&nbsp;Default room rate</li><li>&nbsp;Rate description</li><li>Guaranteed room (yes/no)</li><li>Credit card number</li><li>Confirmation number</li></ul><p>Food Services</p><ul><li>&nbsp;Meal</li><li>Meal type</li><li>Meal item</li><li>&nbsp;Meal order</li><li>Meal payment (Bill to room/Credit/Check/Cash)</li></ul><p>&nbsp;</p>",
+          "helpRef": "9.6.15",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:49:52.096Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>Booking/Reservation System</p><p>· &nbsp; &nbsp; &nbsp; Customer first name</p><p>· &nbsp; &nbsp; &nbsp; Customer last name</p><p>· &nbsp; &nbsp; &nbsp; Customer address</p><p>· &nbsp; &nbsp; &nbsp; Customer phone number</p><p>· &nbsp; &nbsp; &nbsp; Number of occupants</p><p>· &nbsp; &nbsp; &nbsp; Assigned room</p><p>· &nbsp; &nbsp; &nbsp; Default room rate</p><p>· &nbsp; &nbsp; &nbsp; Rate description</p><p>· &nbsp; &nbsp; &nbsp; Guaranteed room (yes/no)</p><p>· &nbsp; &nbsp; &nbsp; Credit card number</p><p>· &nbsp; &nbsp; &nbsp; Confirmation number</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:51:32.785Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>Booking/Reservation System</p><ul><li>Customer first name, last name, address, phone number</li><li>Number of occupants</li><li>&nbsp;Assigned room</li><li>&nbsp;Default room rate</li><li>&nbsp;Rate description</li><li>Guaranteed room (yes/no)</li><li>Credit card number</li><li>Confirmation number</li></ul>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:51:51.721Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>Booking/Reservation System</p><ul><li>Customer first name, last name, address, phone number</li><li>Number of occupants</li><li>&nbsp;Assigned room</li><li>&nbsp;Default room rate</li><li>&nbsp;Rate description</li><li>Guaranteed room (yes/no)</li><li>Credit card number</li><li>Confirmation number</li></ul><p>Booking/Reservation System</p><p>· &nbsp; &nbsp; &nbsp; Customer first name</p><p>· &nbsp; &nbsp; &nbsp; Customer last name</p><p>· &nbsp; &nbsp; &nbsp; Customer address</p><p>· &nbsp; &nbsp; &nbsp; Customer phone number</p><p>· &nbsp; &nbsp; &nbsp; Number of occupants</p><p>· &nbsp; &nbsp; &nbsp; Assigned room</p><p>· &nbsp; &nbsp; &nbsp; Default room rate</p><p>· &nbsp; &nbsp; &nbsp; Rate description</p><p>· &nbsp; &nbsp; &nbsp; Guaranteed room (yes/no)</p><p>· &nbsp; &nbsp; &nbsp; Credit card number</p><p>· &nbsp; &nbsp; &nbsp; Confirmation number</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:52:36.223Z"
+            }
+          ]
+        },
+        {
+          "id": "26",
+          "guid": "8136442b-8094-4d41-9a45-f8879d5d7b08",
+          "heading": "Design constraints",
+          "text": "<ul><li>The Hotel Automation Software shall be a stand-alone system running in a Windows environment.&nbsp;</li><li>The system shall be developed using specific language and&nbsp; suitable database.</li></ul>",
+          "helpRef": "9.6.16",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:54:50.644Z"
+            }
+          ]
+        },
+        {
+          "id": "27",
+          "guid": "34280e95-e9ab-4d68-96f2-fad6b837ad62",
+          "heading": "Standards compliance",
+          "text": "<ul><li>There shall be consistency in variable names within the system. The graphical user interface shall have a consistent look and feel.</li><li>The application should follow industry standards for storage of data and data privacy.&nbsp;</li></ul><p>&nbsp;</p>",
+          "helpRef": "9.6.17",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:55:42.640Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<ul><li>There shall be consistency in variable names within the system. The graphical user interface shall have a consistent look and feel.</li></ul><p>&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:56:01.539Z"
+            }
+          ]
+        },
+        {
+          "id": "28",
+          "guid": "7a30c189-3f5f-4f4b-997a-b48f2bf620d1",
+          "heading": "Software system attributes",
+          "text": "<ul><li style=\"text-align: left;\">.Software should provide satisfactory performance on most of the browsers/OS.</li><li style=\"text-align: left;\">Software should encrypt private user details.</li><li style=\"text-align: left;\">Software should follow ACID properties of DBMS.</li><li style=\"text-align: left;\">Single Software license for entire organization.</li><li style=\"text-align: left;\">Software should serve requests most of the time (&gt;99%)</li></ul>",
+          "helpRef": "9.6.18",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901065@daiict.ac.in",
+                "name": "Devangi Naliyadhara"
+              },
+              "changedOn": "2022-03-06T09:56:52.640Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "guid": "a6cb388d-f97b-47a1-98d1-51e004518bc3",
+      "heading": "Verification",
+      "text": "<ul><li>All external communications between the data’s server and client must be encrypted.</li><li>&nbsp;All data must be stored, protected or protectively marked.&nbsp;</li><li>Payment Process should use HTTP over Secure protocol to secure the payment transactions&nbsp;</li></ul>",
+      "helpRef": "9.6.19",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901065@daiict.ac.in",
+            "name": "Devangi Naliyadhara"
+          },
+          "changedOn": "2022-03-06T09:58:16.144Z"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "guid": "54474289-8db3-418c-b1c4-ec1d708269a9",
+      "heading": "Supporting information",
+      "text": "<p>We took reference from the different Inventory Management, Billing Automation Software's SRS and add features according to our priorities and requirements.&nbsp;</p>",
+      "helpRef": "9.6.20",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901065@daiict.ac.in",
+            "name": "Devangi Naliyadhara"
+          },
+          "changedOn": "2022-03-06T09:58:42.397Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>All external communications between the data’s server and client must be encrypted NF7. All data must be stored, protected or protectively marked. NF8. Payment Process should use HTTP over Secure protocol to secure the payment transactions&nbsp;</p>"
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901065@daiict.ac.in",
+            "name": "Devangi Naliyadhara"
+          },
+          "changedOn": "2022-03-06T09:59:02.375Z"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "guid": "10e90a3c-5703-4739-8921-4aa07fa825d9",
+      "heading": "References",
+      "text": "<ul><li><a href=\"https://www.academia.edu/30988670/Hotel_Management_System_Software_Requirements_Specification_Document?auto=download\">https://www.academia.edu/30988670/Hotel_Management_System_Software_Requirements_Specification_Document?auto=download</a></li><li><a href=\"https://dipeshagrawal.files.wordpress.com/2018/07/srs-hotel-management-system-ok.pdf\">https://dipeshagrawal.files.wordpress.com/2018/07/srs-hotel-management-system-ok.pdf</a></li></ul>",
+      "helpRef": "9.2.4",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901065@daiict.ac.in",
+            "name": "Devangi Naliyadhara"
+          },
+          "changedOn": "2022-03-06T09:59:39.542Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<ul><li><a href=\"https://www.academia.edu/30988670/Hotel_Management_System_Software_Requirements_Specification_Document?auto=download\">https://www.academia.edu/30988670/Hotel_Management_System_Software_Requirements_Specification_Document?auto=download</a></li><li><br></li></ul>"
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901065@daiict.ac.in",
+            "name": "Devangi Naliyadhara"
+          },
+          "changedOn": "2022-03-06T09:59:59.806Z"
+        }
+      ]
+    }
+  ],
+  "attributes": {
+    "difficulty": {
+      "name": "Difficulty",
+      "type": "enum",
+      "values": [
+        {
+          "key": "E",
+          "label": "Easy"
+        },
+        {
+          "key": "N",
+          "label": "Nominal"
+        },
+        {
+          "key": "D",
+          "label": "Difficult"
+        }
+      ]
+    },
+    "owner": {
+      "name": "Owner",
+      "type": "string"
+    },
+    "priority": {
+      "name": "Priority",
+      "type": "enum",
+      "values": [
+        {
+          "key": "L",
+          "label": "Low"
+        },
+        {
+          "key": "M",
+          "label": "Medium"
+        },
+        {
+          "key": "H",
+          "label": "High"
+        }
+      ]
+    },
+    "rationale": {
+      "name": "Rationale",
+      "type": "xhtml"
+    },
+    "source": {
+      "name": "Source",
+      "type": "string"
+    },
+    "status": {
+      "name": "Status",
+      "type": "enum",
+      "values": [
+        {
+          "key": "Draft"
+        },
+        {
+          "key": "Ready"
+        },
+        {
+          "key": "Reviewed"
+        },
+        {
+          "key": "Approved"
+        },
+        {
+          "key": "Released"
+        }
+      ]
+    },
+    "type": {
+      "name": "Type",
+      "type": "enum",
+      "values": [
+        {
+          "key": "FR",
+          "label": "Functional Requirement"
+        },
+        {
+          "key": "INT",
+          "label": "Interface Requirement"
+        },
+        {
+          "key": "NFR",
+          "label": "Non-func. Requirement"
+        },
+        {
+          "key": "SEC",
+          "label": "Section"
+        },
+        {
+          "key": "INF",
+          "label": "Information"
+        }
+      ]
+    },
+    "verMethod": {
+      "name": "Ver. Method",
+      "type": "enum",
+      "values": [
+        {
+          "key": "T",
+          "label": "Test"
+        },
+        {
+          "key": "D",
+          "label": "Demonstration"
+        },
+        {
+          "key": "I",
+          "label": "Inspection"
+        },
+        {
+          "key": "A",
+          "label": "Analysis"
+        }
+      ]
+    }
+  },
+  "view": {
+    "columns": [
+      {
+        "columnId": "id",
+        "hidden": false,
+        "width": 77
+      },
+      {
+        "attribute": "type",
+        "columnId": "type",
+        "hidden": false,
+        "width": 97
+      },
+      {
+        "columnId": "description",
+        "hidden": false,
+        "width": 372
+      },
+      {
+        "columnId": "discussion",
+        "hidden": true,
+        "width": 190
+      },
+      {
+        "columnId": "links",
+        "hidden": true,
+        "width": 196
+      },
+      {
+        "attribute": "source",
+        "columnId": "source",
+        "hidden": false,
+        "width": 150
+      },
+      {
+        "attribute": "rationale",
+        "columnId": "rationale",
+        "hidden": false,
+        "width": 150
+      },
+      {
+        "attribute": "priority",
+        "columnId": "priority",
+        "hidden": false,
+        "width": 96
+      },
+      {
+        "attribute": "status",
+        "columnId": "status",
+        "hidden": false,
+        "width": 86
+      },
+      {
+        "attribute": "verMethod",
+        "columnId": "verMethod",
+        "hidden": false,
+        "width": 105
+      },
+      {
+        "attribute": "difficulty",
+        "columnId": "difficulty",
+        "hidden": true,
+        "width": 108
+      },
+      {
+        "attribute": "owner",
+        "columnId": "owner",
+        "hidden": true,
+        "width": 106
+      },
+      {
+        "columnId": "attributes",
+        "hidden": true,
+        "width": 300
+      }
+    ]
+  },
+  "metadata": {
+    "format": "2.13"
+  }
+}

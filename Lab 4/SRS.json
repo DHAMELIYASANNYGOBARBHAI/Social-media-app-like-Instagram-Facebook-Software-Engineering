@@ -1,0 +1,2002 @@
+{
+  "id": "SRS",
+  "guid": "91da166d-aedb-48e2-a2ba-b1be37625c47",
+  "name": "Software Requirements Specification",
+  "lastId": 41,
+  "createdOn": "2022-03-06T04:46:23.583Z",
+  "createdBy": {
+    "name": "Yash Sakaria",
+    "email": "201901165@daiict.ac.in",
+    "company": "DAIICT"
+  },
+  "lastChangedOn": "2022-03-06T06:53:12.521Z",
+  "lastChangedBy": {
+    "name": "Yash Sakaria",
+    "email": "201901165@daiict.ac.in",
+    "company": "DAIICT"
+  },
+  "helpRef": "ISO/IEC/IEEE 29148:2018",
+  "data": [
+    {
+      "id": "1",
+      "guid": "759d5255-f65c-41a5-ad3b-8106f8724adf",
+      "heading": "Introduction",
+      "text": "<p>Project Name: Medical Shop Automation</p><p>Developers: Yash Sakaria, Jainam Gandhi</p><p><br></p>",
+      "helpRef": "8.5",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901165@daiict.ac.in",
+            "name": "Yash Sakaria"
+          },
+          "changedOn": "2022-03-06T04:58:29.296Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>Project Name: Medical Shop Automation</p><p><br></p>"
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901165@daiict.ac.in",
+            "name": "Yash Sakaria"
+          },
+          "changedOn": "2022-03-06T04:58:56.108Z"
+        }
+      ],
+      "children": [
+        {
+          "id": "2",
+          "guid": "4adc0cfc-9992-4c6f-9f81-231c46e63850",
+          "heading": "Purpose",
+          "text": "<p>The purpose of this software is to automate the inventory management, medicine sales, bill generation, statistical report generation, etc. One more feature that is must is to generate the medicine orders based on the data of the inventory.&nbsp;</p>",
+          "helpRef": "9.6.2",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T04:59:35.938Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The purpose of this software is to automize&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:01:19.581Z"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "guid": "fe87b5b3-87be-45a0-9f41-e98362c94992",
+          "heading": "Scope",
+          "text": "<p>1. The user of this software will be the Medical Shop owner.</p><p>2. Medicine Shop owners can track their orders, sales and automate the inventory management including deficit medicine automation etc.</p>",
+          "helpRef": "9.6.3",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:05:52.723Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1. The user of this software will be the Medical Shop owner and&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:06:06.767Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1. The user of this software will be the Medical Shop owner.</p><p>2.&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:07:16.582Z"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "guid": "eb027064-d436-429c-8a12-93bd09b4bc25",
+          "heading": "Product perspective",
+          "text": "<p>MSA is a standalone application which includes all the features and functionalities mentioned in the product functions sections.</p><p>It also includes a portal to banking services to issue cheques for the orders.</p>",
+          "helpRef": "9.6.4",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:08:03.263Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>MSA is a standalone application which includes all the features and functionalities mentioned in the&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:08:44.810Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "5",
+              "guid": "4741c13b-dee6-4571-8068-850a67d74ecf",
+              "heading": "System interfaces",
+              "text": "<p>This is an application which runs on all the latest version of Android/IOS. It also has an Web Application which runs on almost all the newer versions of the browsers.</p>",
+              "helpRef": "9.6.4.1",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T05:10:30.357Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>This is an application which runs on all the latest version of Android/IOS. It also has an Web Application which runs</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T05:14:53.906Z"
+                }
+              ]
+            },
+            {
+              "id": "6",
+              "guid": "89461981-8f9b-4c86-969f-8bcc13ab92c0",
+              "heading": "User interfaces",
+              "text": "<p>1. The applications should provide a portal for user login whose backend is grouped as per the organization.</p><p>2. It should provide statistical information in the form of graphs which are easy to interpret.</p><p>3. It should have GUI which includes buttons, menus to ease the work of the user.</p>",
+              "helpRef": "9.6.4.2",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T05:19:05.617Z"
+                }
+              ]
+            },
+            {
+              "id": "7",
+              "guid": "70c3aab4-8424-4b36-b2ef-ef1b74cf2c97",
+              "heading": "Hardware interfaces",
+              "text": "<p>1. It should have a facility to connect the app to the printer for printing bills, cheques.</p><p>2. It requires a scanning portal to scan the medicines while generating a bill or updating inventory.</p>",
+              "helpRef": "9.6.4.3",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T05:24:10.536Z"
+                }
+              ]
+            },
+            {
+              "id": "8",
+              "guid": "9d2429c2-744b-4b7c-92c0-945f12cc1d2a",
+              "heading": "Software interfaces",
+              "text": "<p>1. The application will interact with an external Database Management System to store data and query it effectively</p><p>2. The application will interact with external bank portal to verify account details and make payments.</p>",
+              "helpRef": "9.6.4.4",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T05:28:28.673Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>1. The application will</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T05:29:05.838Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>1. The application will interact with an external Database Management System to store data and query it effectively</p><p>2.&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T05:30:00.832Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>1. The application will interact with an external Database Management System to store data and query it effectively</p><p>2. The application will interact with external bank portal to verify account details and make payments.</p><p>3.&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T05:30:24.410Z"
+                }
+              ]
+            },
+            {
+              "id": "9",
+              "guid": "f6991c8e-a59c-4ef7-96af-8ad2d8709a49",
+              "heading": "Communications interfaces",
+              "text": "<p>The application follows client-server based service. It should use a REST based web app service. For secured requests, it should use HTTPS.</p>",
+              "helpRef": "9.6.4.5",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T05:31:03.695Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>The application follows client-server based service.&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T05:31:50.791Z"
+                }
+              ]
+            },
+            {
+              "id": "10",
+              "guid": "2a1ebc8e-94c3-4b0d-9e3d-db0c1e2c9c0e",
+              "heading": "Memory constraints",
+              "text": "<p>There are no specified constraints on memory however the storage of data should be optimized so that queries run optimally.</p>",
+              "helpRef": "9.6.4.6",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T05:32:59.552Z"
+                }
+              ]
+            },
+            {
+              "id": "11",
+              "guid": "be2e745d-9812-461f-994c-c06f35fb17eb",
+              "heading": "Operations",
+              "text": "<p>1. Different users should be given rights to access the inventory and use software features accordingly.</p><p>2. Printing Cheques, bills, order receipts should be provided.</p><p>3. Inventory management should be done on daily basis which includes maintaining the quantity of medicine as per the threshold.</p><p>4. Data should be backed up on regular intervals to avoid any data loss during system failure.&nbsp;</p>",
+              "helpRef": "9.6.4.7",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T05:38:07.455Z"
+                }
+              ]
+            },
+            {
+              "id": "12",
+              "guid": "eb093a71-096a-4c9f-81c3-eb0e6e11d926",
+              "heading": "Site adaptation requirements",
+              "helpRef": "9.6.4.8",
+              "type": "SEC"
+            },
+            {
+              "id": "13",
+              "guid": "1fac8427-2b87-4a94-9a51-9f7e177f0066",
+              "heading": "Interfaces with  services",
+              "text": "<p>1. Should Interact with external bank portals.</p><p>2. Should interact with external hardware such as printers, scanners etc.</p><p>3. Should interact with the any cloud platform if required.</p>",
+              "helpRef": "9.6.4.9",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T05:42:00.093Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "guid": "bfe7a5f8-c29f-407f-8d12-b7e067feb3ab",
+          "heading": "Product functions",
+          "text": "<p>1. &nbsp;A feature that can add a new medicine to the database. Should be able to add Medicine Trade name, Medicine Generic Name, Vendors selling it, Unit Selling Price, Unit Purchasing Price, Quanitity that I have. This features should also allocate a unique Code Number to the medicine automatically.&nbsp;</p><p>2. &nbsp;A feature that enables me to update the stock, price and other details whenever new stock arrives.&nbsp;</p><p>3. &nbsp;Features to run queries on the database such as showing details of medicine given the generic name/Code number (quantity, price, etc), vendor-wise list of medicines and their details, quantity based sorting of medicine, price-wise sorting, same medicine having different vendors, etc.</p><p>4. &nbsp;One-click feature that gives a list of expired medicine at any given time.</p><p>5. &nbsp;A feature that gives me a list of medicine to be ordered at the end of each day. This should be decided based on the threshold quantity of that particular medicine. The threshold quantity should be calculated as average quatity required per week and this value should be updated every week based on past 4 weeks data. If the quantity goes below threshold value, the medicine should be added to that list. The list should show the quantity required, other details of the medicine and vendor from whom to buy.&nbsp;</p><p>6. &nbsp;Should be able to generate a Bill/Cash Receipt for particular order. I should be able to enter Code number of medicine and quantity required.&nbsp;</p><p>7. &nbsp;A feature help me to keep track of my purchases. It should give vendor-wise purchase receipts that contains details such as Code number of medicine, quantity, batch number, expiry date, vendor number etc.&nbsp;</p><p>8. &nbsp;Statistical graph that show amount of medicines sold monthly (vendor-wise, individually), &nbsp;my profits per medicine, avg revenue, avg profit for any given period of time.</p>",
+          "helpRef": "9.6.5",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:46:01.613Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1. &nbsp;A feature that can add a new medicine to the database. Should be able to add Medicine Trade name, Medicine Generic Name, Vendors selling it, Unit Selling Price, Unit Purchasing Price, Quanitity that I have. This features should also allocate a unique Code Number to the medicine automatically.&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:46:37.311Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1. &nbsp;A feature that can add a new medicine to the database. Should be able to add Medicine Trade name, Medicine Generic Name, Vendors selling it, Unit Selling Price, Unit Purchasing Price, Quanitity that I have. This features should also allocate a unique Code Number to the medicine automatically.&nbsp;</p><p>2.&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:46:59.858Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1. &nbsp;A feature that can add a new medicine to the database. Should be able to add Medicine Trade name, Medicine Generic Name, Vendors selling it, Unit Selling Price, Unit Purchasing Price, Quanitity that I have. This features should also allocate a unique Code Number to the medicine automatically.&nbsp;</p><p>2. &nbsp;A feature that enables me to update the stock, price and other details whenever new stock arrives.&nbsp;</p><p>3.&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:47:17.141Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1. &nbsp;A feature that can add a new medicine to the database. Should be able to add Medicine Trade name, Medicine Generic Name, Vendors selling it, Unit Selling Price, Unit Purchasing Price, Quanitity that I have. This features should also allocate a unique Code Number to the medicine automatically.&nbsp;</p><p>2. &nbsp;A feature that enables me to update the stock, price and other details whenever new stock arrives.&nbsp;</p><p>3.&nbsp; Features to run queries on the database such as showing details of medicine given the generic name/Code number (quantity, price, etc), vendor-wise list of medicines and their details, quantity based sorting of medicine, price-wise sorting, same medicine having different vendors, etc.&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:47:38.714Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1. &nbsp;A feature that can add a new medicine to the database. Should be able to add Medicine Trade name, Medicine Generic Name, Vendors selling it, Unit Selling Price, Unit Purchasing Price, Quanitity that I have. This features should also allocate a unique Code Number to the medicine automatically.&nbsp;</p><p>2. &nbsp;A feature that enables me to update the stock, price and other details whenever new stock arrives.&nbsp;</p><p>3. &nbsp;Features to run queries on the database such as showing details of medicine given the generic name/Code number (quantity, price, etc), vendor-wise list of medicines and their details, quantity based sorting of medicine, price-wise sorting, same medicine having different vendors, etc.</p><p>4.&nbsp; One-click feature that gives a list of expired medicine at any given time &nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:47:56.684Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1. &nbsp;A feature that can add a new medicine to the database. Should be able to add Medicine Trade name, Medicine Generic Name, Vendors selling it, Unit Selling Price, Unit Purchasing Price, Quanitity that I have. This features should also allocate a unique Code Number to the medicine automatically.&nbsp;</p><p>2. &nbsp;A feature that enables me to update the stock, price and other details whenever new stock arrives.&nbsp;</p><p>3. &nbsp;Features to run queries on the database such as showing details of medicine given the generic name/Code number (quantity, price, etc), vendor-wise list of medicines and their details, quantity based sorting of medicine, price-wise sorting, same medicine having different vendors, etc.</p><p>4. &nbsp;One-click feature that gives a list of expired medicine at any given time.</p><p>5.&nbsp; A feature that gives me a list of medicine to be ordered at the end of each day. This should be decided based on the threshold quantity of that particular medicine. The threshold quantity should be calculated as average quatity required per week and this value should be updated every week based on past 4 weeks data. If the quantity goes below threshold value, the medicine should be added to that list. The list should show the quantity required, other details of the medicine and vendor from whom to buy.&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:48:29.370Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1. &nbsp;A feature that can add a new medicine to the database. Should be able to add Medicine Trade name, Medicine Generic Name, Vendors selling it, Unit Selling Price, Unit Purchasing Price, Quanitity that I have. This features should also allocate a unique Code Number to the medicine automatically.&nbsp;</p><p>2. &nbsp;A feature that enables me to update the stock, price and other details whenever new stock arrives.&nbsp;</p><p>3. &nbsp;Features to run queries on the database such as showing details of medicine given the generic name/Code number (quantity, price, etc), vendor-wise list of medicines and their details, quantity based sorting of medicine, price-wise sorting, same medicine having different vendors, etc.</p><p>4. &nbsp;One-click feature that gives a list of expired medicine at any given time.</p><p>5. &nbsp;A feature that gives me a list of medicine to be ordered at the end of each day. This should be decided based on the threshold quantity of that particular medicine. The threshold quantity should be calculated as average quatity required per week and this value should be updated every week based on past 4 weeks data. If the quantity goes below threshold value, the medicine should be added to that list. The list should show the quantity required, other details of the medicine and vendor from whom to buy.&nbsp;</p><p>6. &nbsp;Should be able to generate a Bill/Cash Receipt for particular order. I should be able to enter Code number of medicine and quantity required.&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:48:52.761Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1. &nbsp;A feature that can add a new medicine to the database. Should be able to add Medicine Trade name, Medicine Generic Name, Vendors selling it, Unit Selling Price, Unit Purchasing Price, Quanitity that I have. This features should also allocate a unique Code Number to the medicine automatically.&nbsp;</p><p>2. &nbsp;A feature that enables me to update the stock, price and other details whenever new stock arrives.&nbsp;</p><p>3. &nbsp;Features to run queries on the database such as showing details of medicine given the generic name/Code number (quantity, price, etc), vendor-wise list of medicines and their details, quantity based sorting of medicine, price-wise sorting, same medicine having different vendors, etc.</p><p>4. &nbsp;One-click feature that gives a list of expired medicine at any given time.</p><p>5. &nbsp;A feature that gives me a list of medicine to be ordered at the end of each day. This should be decided based on the threshold quantity of that particular medicine. The threshold quantity should be calculated as average quatity required per week and this value should be updated every week based on past 4 weeks data. If the quantity goes below threshold value, the medicine should be added to that list. The list should show the quantity required, other details of the medicine and vendor from whom to buy.&nbsp;</p><p>6. &nbsp;Should be able to generate a Bill/Cash Receipt for particular order. I should be able to enter Code number of medicine and quantity required.&nbsp;</p><p>7.&nbsp; A feature help me to keep track of my purchases. It should give vendor-wise purchase receipts that contains details such as Code number of medicine, quantity, batch number, expiry date, vendor number etc.&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:49:15.928Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1. &nbsp;A feature that can add a new medicine to the database. Should be able to add Medicine Trade name, Medicine Generic Name, Vendors selling it, Unit Selling Price, Unit Purchasing Price, Quanitity that I have. This features should also allocate a unique Code Number to the medicine automatically.&nbsp;</p><p>2. &nbsp;A feature that enables me to update the stock, price and other details whenever new stock arrives.&nbsp;</p><p>3. &nbsp;Features to run queries on the database such as showing details of medicine given the generic name/Code number (quantity, price, etc), vendor-wise list of medicines and their details, quantity based sorting of medicine, price-wise sorting, same medicine having different vendors, etc.</p><p>4. &nbsp;One-click feature that gives a list of expired medicine at any given time.</p><p>5. &nbsp;A feature that gives me a list of medicine to be ordered at the end of each day. This should be decided based on the threshold quantity of that particular medicine. The threshold quantity should be calculated as average quatity required per week and this value should be updated every week based on past 4 weeks data. If the quantity goes below threshold value, the medicine should be added to that list. The list should show the quantity required, other details of the medicine and vendor from whom to buy.&nbsp;</p><p>6. &nbsp;Should be able to generate a Bill/Cash Receipt for particular order. I should be able to enter Code number of medicine and quantity required.&nbsp;</p><p>7. &nbsp;A feature help me to keep track of my purchases. It should give vendor-wise purchase receipts that contains details such as Code number of medicine, quantity, batch number, expiry date, vendor number etc.&nbsp;</p><p>8. &nbsp;Statistical graph that show amount of medicines sold monthly (vendor-wise, individually).</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:49:40.045Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1. &nbsp;A feature that can add a new medicine to the database. Should be able to add Medicine Trade name, Medicine Generic Name, Vendors selling it, Unit Selling Price, Unit Purchasing Price, Quanitity that I have. This features should also allocate a unique Code Number to the medicine automatically.&nbsp;</p><p>2. &nbsp;A feature that enables me to update the stock, price and other details whenever new stock arrives.&nbsp;</p><p>3. &nbsp;Features to run queries on the database such as showing details of medicine given the generic name/Code number (quantity, price, etc), vendor-wise list of medicines and their details, quantity based sorting of medicine, price-wise sorting, same medicine having different vendors, etc.</p><p>4. &nbsp;One-click feature that gives a list of expired medicine at any given time.</p><p>5. &nbsp;A feature that gives me a list of medicine to be ordered at the end of each day. This should be decided based on the threshold quantity of that particular medicine. The threshold quantity should be calculated as average quatity required per week and this value should be updated every week based on past 4 weeks data. If the quantity goes below threshold value, the medicine should be added to that list. The list should show the quantity required, other details of the medicine and vendor from whom to buy.&nbsp;</p><p>6. &nbsp;Should be able to generate a Bill/Cash Receipt for particular order. I should be able to enter Code number of medicine and quantity required.&nbsp;</p><p>7. &nbsp;A feature help me to keep track of my purchases. It should give vendor-wise purchase receipts that contains details such as Code number of medicine, quantity, batch number, expiry date, vendor number etc.&nbsp;</p><p>8. &nbsp;Statistical graph that show amount of medicines sold monthly (vendor-wise, individually), &nbsp;my profits per medicine, avg revenue, avg profit for any given period of time,&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:49:55.644Z"
+            }
+          ]
+        },
+        {
+          "id": "15",
+          "guid": "eb600a3d-4139-4436-8817-d0cf9e33f336",
+          "heading": "User  characteristics",
+          "text": "<p>1. The edit access of inventory should be provided to only the Shop owner/manager.&nbsp;</p><p>2. Other features such as issuing bills of the orders, issuing orders etc. should be given to owner only.</p><p>3. Similarly, hierarchical structure should be followed for giving rights to the users of the application.</p>",
+          "helpRef": "9.6.6",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:55:38.827Z"
+            }
+          ]
+        },
+        {
+          "id": "16",
+          "guid": "20b6fde9-5d13-4271-8923-ab1c6968b859",
+          "heading": "Limitations",
+          "text": "<p>1. Don't have efficient and cheap data backup plan.</p><p>2. Parallel update to database by multiple users may lead to inconsistent state which we get to know at the end of generating any bill.</p>",
+          "helpRef": "9.6.7",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T05:57:45.792Z"
+            }
+          ]
+        },
+        {
+          "id": "17",
+          "guid": "dd7f0daa-f828-498f-ab97-2af3119f03f5",
+          "heading": "Assumptions and dependencies",
+          "text": "<p>1. Assumed the application will run with same efficiency and provide similar performance on all the browsers/OS.</p><p>2. Assumed the bank portals will be available and allow users to make payments.</p><p>3. Assumed the database to be scalable</p>",
+          "helpRef": "9.6.8",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T06:02:10.210Z"
+            }
+          ]
+        },
+        {
+          "id": "18",
+          "guid": "c2918ce7-727a-4f2b-ad3b-853bcf90ac78",
+          "heading": "Definitions",
+          "helpRef": "9.2.3",
+          "type": "SEC"
+        },
+        {
+          "id": "19",
+          "guid": "961a4d08-5095-42d8-8437-5e12fc090e34",
+          "heading": "Acronyms and abbreviations",
+          "text": "<p>MSA - Medical Shop Automation</p><p>GUI - Graphical User Interface</p><p>REST - Representational State Transfer</p><p>HTTPS - Hyper Text Transfer Protocol Secure</p><p>OS - Operating System</p><p>ACID - Atomicity, Consistency, Isolation, and Durability</p><p>DBMS - Database Management System</p>",
+          "helpRef": "9.2.5",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T06:03:20.781Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>MSA - Medical Shop Automation</p><p>GUI - Graphical User Interface</p><p>REST - Representational State Transfer</p><p>HTTPS - Hyper Text Transfer Protocol Secure</p><p>OS - Operating System</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T06:31:33.447Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>MSA - Medical Shop Automation</p><p>GUI - Graphical User Interface</p><p>REST - Representational State Transfer</p><p>HTTPS - Hyper Text Transfer Protocol Secure</p><p>OS - Operating System</p><p>ACID - Atomicity, Consistency,&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T06:32:25.078Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "guid": "5725848d-ba61-4964-b4c9-1d73e1741866",
+      "heading": "Requirements",
+      "helpRef": "9.6.10",
+      "type": "SEC",
+      "children": [
+        {
+          "id": "21",
+          "guid": "3584f40f-be38-4836-bc26-5847edb61c07",
+          "heading": "External interfaces",
+          "text": "<p>1. Cloud Portal - For deploying certain functionalities on cloud.</p><p>2. Bank Portal - for issuing payment requests.</p>",
+          "helpRef": "9.6.11",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T06:04:58.104Z"
+            }
+          ]
+        },
+        {
+          "id": "22",
+          "guid": "eebc7f37-c676-4353-bbfc-645afcf40c77",
+          "heading": "Functions",
+          "helpRef": "9.6.12",
+          "type": "SEC",
+          "children": [
+            {
+              "id": "33",
+              "guid": "32a62a73-9140-4bd6-9d0c-7bcbaf45dbc5",
+              "heading": "Generate Medicine Sales Statistics",
+              "text": "<p>Input: Medicine, Start Date, End Date</p><p>Output: Statistical graph that show amount of medicines sold monthly (vendor-wise, individually)&nbsp;</p>",
+              "priority": "M",
+              "status": "Draft",
+              "type": "FR",
+              "verMethod": "T",
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:05:32.610Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:06:34.653Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:06:37.493Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:07:45.074Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Statistical graph that show amount of medicines sold monthly (vendor-wise, individually)&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:08:45.832Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "2.2.1 Generate Medicine Sales Statistics"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:09:00.971Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:51:38.401Z"
+                },
+                {
+                  "attributesChanged": {
+                    "status": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:51:47.670Z"
+                },
+                {
+                  "attributesChanged": {
+                    "verMethod": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:51:50.835Z"
+                }
+              ]
+            },
+            {
+              "id": "34",
+              "guid": "3b1a4d13-90b5-4a1e-b8bd-21b1d9fd4443",
+              "heading": "Generate Vendor-wise Payment List",
+              "text": "<p>Input: Order Data, Start Date, End Date</p><p>Output: Vendor wise list of orders&nbsp;</p>",
+              "priority": "M",
+              "status": "Ready",
+              "type": "FR",
+              "verMethod": "D",
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:08:48.526Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:08:54.838Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "2.2."
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:09:22.059Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:10:13.033Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:25:48.657Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:51:57.352Z"
+                },
+                {
+                  "attributesChanged": {
+                    "status": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:52:02.698Z"
+                },
+                {
+                  "attributesChanged": {
+                    "verMethod": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:52:04.975Z"
+                },
+                {
+                  "attributesChanged": {
+                    "verMethod": "T"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:52:07.444Z"
+                }
+              ]
+            },
+            {
+              "id": "35",
+              "guid": "50f0efda-8e4e-42de-bc50-5b5ad8533468",
+              "heading": "Generate Profit Statistics",
+              "text": "<p>Input: Sales Date, Start Date, End Date</p><p>Output: Overall profit, medicine wise profit, month wise profit etc.</p>",
+              "priority": "M",
+              "status": "Reviewed",
+              "type": "FR",
+              "verMethod": "D",
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:10:14.961Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:11:17.666Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:25:51.669Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:52:12.793Z"
+                },
+                {
+                  "attributesChanged": {
+                    "status": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:52:16.653Z"
+                },
+                {
+                  "attributesChanged": {
+                    "verMethod": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:52:21.699Z"
+                }
+              ]
+            },
+            {
+              "id": "36",
+              "guid": "cb6173d4-fcf4-4fc2-8d94-ae319b9a5ebd",
+              "heading": "Check for Expired Medicines",
+              "text": "<p>Input: Medicine Date</p><p>Output: List of medicine expired on that date along with the quantity</p>",
+              "priority": "H",
+              "status": "Ready",
+              "type": "FR",
+              "verMethod": "A",
+              "links": {
+                "dependency": [
+                  "SRS-37"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:11:22.707Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:12:13.020Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:25:53.997Z"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "SRS-37"
+                    ],
+                    "type": "dependency"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:49:03.383Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:52:26.533Z"
+                },
+                {
+                  "attributesChanged": {
+                    "status": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:52:30.593Z"
+                },
+                {
+                  "attributesChanged": {
+                    "verMethod": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:52:34.829Z"
+                }
+              ]
+            },
+            {
+              "id": "37",
+              "guid": "1e339303-a6d1-4a6d-b3ba-f9376cf3afec",
+              "heading": "Calculating threshold",
+              "text": "<p>Input: Medicine and Sales Date</p><p>Output: Threshold quantity to be kept for each medicine based on the sales made.</p>",
+              "priority": "H",
+              "status": "Ready",
+              "type": "FR",
+              "verMethod": "I",
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:12:16.508Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:13:09.693Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:25:57.508Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:51:07.335Z"
+                },
+                {
+                  "attributesChanged": {
+                    "status": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:51:15.030Z"
+                },
+                {
+                  "attributesChanged": {
+                    "verMethod": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:51:18.490Z"
+                }
+              ]
+            },
+            {
+              "id": "38",
+              "guid": "e313e52a-cc3e-4cb2-ac35-02e56cb64f61",
+              "heading": "Printing Cheques",
+              "text": "<p>Input: Vendor Details, Medicine Information</p><p>Output: Transfer the query to printer.</p>",
+              "priority": "H",
+              "status": "Approved",
+              "type": "FR",
+              "verMethod": "T",
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:13:11.731Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:14:04.289Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:26:00.150Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:52:38.846Z"
+                },
+                {
+                  "attributesChanged": {
+                    "status": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:52:43.725Z"
+                },
+                {
+                  "attributesChanged": {
+                    "verMethod": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:52:49.565Z"
+                }
+              ]
+            },
+            {
+              "id": "39",
+              "guid": "a46631d6-d1c6-40de-9a8c-fb65033462ba",
+              "heading": "Generate an Order",
+              "text": "<p>Input: Medicine details</p><p>Output: Generate a bill</p>",
+              "priority": "H",
+              "status": "Released",
+              "type": "FR",
+              "links": {
+                "dependency": [
+                  "SRS-38"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:14:11.670Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:14:45.450Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:26:02.196Z"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "SRS-38"
+                    ],
+                    "type": "dependency"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:48:44.102Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:52:54.114Z"
+                },
+                {
+                  "attributesChanged": {
+                    "status": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:52:59.051Z"
+                }
+              ]
+            },
+            {
+              "id": "40",
+              "guid": "629436ee-23e4-4a45-a5f3-8258ea2eaf68",
+              "heading": "Add a Medicine",
+              "text": "<p>Input: Medicine Details</p><p>Output: Add/update medicine details in the inventory.</p>",
+              "priority": "H",
+              "status": "Released",
+              "type": "FR",
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:14:47.566Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:15:32.773Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Add a medicine"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:15:48.470Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:26:05.165Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:53:03.541Z"
+                },
+                {
+                  "attributesChanged": {
+                    "status": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:53:06.433Z"
+                }
+              ]
+            },
+            {
+              "id": "41",
+              "guid": "7601b38b-f841-421f-80ad-9c34054a7029",
+              "heading": "Remove a Medicine",
+              "text": "<p>Input: Medicine ID</p><p>Output: remove medicine from the database of exists.</p>",
+              "priority": "H",
+              "status": "Released",
+              "type": "FR",
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:15:34.630Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:15:43.974Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:16:25.606Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:26:07.899Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:53:10.247Z"
+                },
+                {
+                  "attributesChanged": {
+                    "status": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:53:12.521Z"
+                }
+              ]
+            },
+            {
+              "id": "32",
+              "guid": "83dd253b-29f7-4664-b23d-9e861c5088ec",
+              "deleted": true,
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:05:06.450Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "deleted": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:05:18.225Z"
+                },
+                {
+                  "attributesChanged": {
+                    "deleted": true
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:05:25.032Z"
+                },
+                {
+                  "attributesChanged": {
+                    "deleted": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:05:40.025Z"
+                },
+                {
+                  "attributesChanged": {
+                    "deleted": true
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:05:54.780Z"
+                },
+                {
+                  "attributesChanged": {
+                    "deleted": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901165@daiict.ac.in",
+                    "name": "Yash Sakaria"
+                  },
+                  "changedOn": "2022-03-06T06:05:56.284Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "23",
+          "guid": "61b4db1d-88af-43ae-af86-98ab68784731",
+          "heading": "Usability requirements",
+          "text": "<p>1. Easy UI for new users.</p><p>2. Multi language support</p><p>3. Feedback system</p>",
+          "helpRef": "9.6.13",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T06:20:22.920Z"
+            }
+          ]
+        },
+        {
+          "id": "24",
+          "guid": "b3c56743-614d-4030-bcaa-ef925e72ba8d",
+          "heading": "Performance requirements",
+          "text": "<p>1. Multidevice login</p><p>2. Large number of requests should be handled by the servers.</p><p>3. Optimize Querying time</p>",
+          "helpRef": "9.6.14",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T06:21:21.312Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1. Multidevice login</p><p>2. Large number of requests should be handled by the servers.</p><p>3.&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T06:22:09.539Z"
+            }
+          ]
+        },
+        {
+          "id": "25",
+          "guid": "242dc28d-673d-47b4-ba15-72c45209e9d9",
+          "heading": "Logical database requirements",
+          "text": "<p>1. Customer bank details on bills, owner bank details on order receipts should be encrypted/hidden. Decryption mechanism should be set up in database.</p>",
+          "helpRef": "9.6.15",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T06:23:44.291Z"
+            }
+          ]
+        },
+        {
+          "id": "26",
+          "guid": "2227e58c-b4b9-418f-b161-60da7dcde5ea",
+          "heading": "Design constraints",
+          "text": "<p>1. Scale database, cloud services as per the workload.</p>",
+          "helpRef": "9.6.16",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T06:24:31.423Z"
+            }
+          ]
+        },
+        {
+          "id": "27",
+          "guid": "07619cb4-b2bc-4e07-9821-8a3fa3e2be6a",
+          "heading": "Standards compliance",
+          "text": "<p>1. The application should follow industry standards for storage of data and data privacy.</p>",
+          "helpRef": "9.6.17",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T06:25:09.371Z"
+            }
+          ]
+        },
+        {
+          "id": "28",
+          "guid": "66fc7b66-51bf-4da5-a6d4-08d0dc30851b",
+          "heading": "Software system attributes",
+          "text": "<p>1. Software should provide satisfactory performance on most of the browsers/OS.</p><p>2. Software should encrypt private user details.</p><p>3. Software should follow ACID properties of DBMS.</p><p>4. Single Software license for entire organization.</p><p>5. Software should serve requests most of the time (&gt;99%)</p>",
+          "helpRef": "9.6.18",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T06:29:38.033Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1.&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T06:31:16.936Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>1. Software should provide satisfactory performance on most of the browsers/OS.</p><p>2. Software should encrypt private user details.</p><p>3. Software should follow ACID properties of DBMS.</p><p>4.&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901165@daiict.ac.in",
+                "name": "Yash Sakaria"
+              },
+              "changedOn": "2022-03-06T06:35:47.687Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "guid": "483e4fef-f47f-490e-8279-c92026ae093d",
+      "heading": "Verification",
+      "text": "<p>1. Verify private details encryption.</p><p>2. Verify consistency of database.</p><p>3. Verify banking portal requests.</p><p>4. Verify all the functionalities implemented in application.</p>",
+      "helpRef": "9.6.19",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901165@daiict.ac.in",
+            "name": "Yash Sakaria"
+          },
+          "changedOn": "2022-03-06T06:37:11.776Z"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "guid": "bf49f7fd-dc28-4cae-8904-25372484808b",
+      "heading": "Supporting information",
+      "text": "<p>We took reference from the different Inventory Management, Billing Automation Software's SRS and add features according to our priorities and requirements.</p>",
+      "helpRef": "9.6.20",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901165@daiict.ac.in",
+            "name": "Yash Sakaria"
+          },
+          "changedOn": "2022-03-06T06:38:43.796Z"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "guid": "89419679-b621-4a29-9714-ac7c1950aa58",
+      "heading": "References",
+      "text": "<p>1. <a href=\"https://www.freeprojectz.com/projects/medical-shop-automation-system\">https://www.freeprojectz.com/projects/medical-shop-automation-system</a></p><p>2. <a href=\"https://www.scribd.com/doc/156736020/Medical-Shop-Automation-System\">https://www.scribd.com/doc/156736020/Medical-Shop-Automation-System</a>&nbsp;</p><p>3.&nbsp;<a href=\"https://github.com/dibya001/Medicine-Shop-Automation\">https://github.com/dibya001/Medicine-Shop-Automation</a></p>",
+      "helpRef": "9.2.4",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901165@daiict.ac.in",
+            "name": "Yash Sakaria"
+          },
+          "changedOn": "2022-03-06T06:38:56.880Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>1.&nbsp;</p>"
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901165@daiict.ac.in",
+            "name": "Yash Sakaria"
+          },
+          "changedOn": "2022-03-06T06:39:48.018Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>1. <a href=\"https://www.freeprojectz.com/projects/medical-shop-automation-system\">https://www.freeprojectz.com/projects/medical-shop-automation-system</a></p><p>2.&nbsp;</p>"
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901165@daiict.ac.in",
+            "name": "Yash Sakaria"
+          },
+          "changedOn": "2022-03-06T06:40:25.040Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>1. <a href=\"https://www.freeprojectz.com/projects/medical-shop-automation-system\">https://www.freeprojectz.com/projects/medical-shop-automation-system</a></p><p>2. <a href=\"https://www.scribd.com/doc/156736020/Medical-Shop-Automation-System\">https://www.scribd.com/doc/156736020/Medical-Shop-Automation-System</a>&nbsp;</p><p>3.&nbsp;</p>"
+          },
+          "changedBy": {
+            "company": "DAIICT",
+            "email": "201901165@daiict.ac.in",
+            "name": "Yash Sakaria"
+          },
+          "changedOn": "2022-03-06T06:40:59.517Z"
+        }
+      ]
+    }
+  ],
+  "attributes": {
+    "difficulty": {
+      "name": "Difficulty",
+      "type": "enum",
+      "values": [
+        {
+          "key": "E",
+          "label": "Easy"
+        },
+        {
+          "key": "N",
+          "label": "Nominal"
+        },
+        {
+          "key": "D",
+          "label": "Difficult"
+        }
+      ]
+    },
+    "owner": {
+      "name": "Owner",
+      "type": "string"
+    },
+    "priority": {
+      "name": "Priority",
+      "type": "enum",
+      "values": [
+        {
+          "key": "L",
+          "label": "Low"
+        },
+        {
+          "key": "M",
+          "label": "Medium"
+        },
+        {
+          "key": "H",
+          "label": "High"
+        }
+      ]
+    },
+    "rationale": {
+      "name": "Rationale",
+      "type": "xhtml"
+    },
+    "source": {
+      "name": "Source",
+      "type": "string"
+    },
+    "status": {
+      "name": "Status",
+      "type": "enum",
+      "values": [
+        {
+          "key": "Draft"
+        },
+        {
+          "key": "Ready"
+        },
+        {
+          "key": "Reviewed"
+        },
+        {
+          "key": "Approved"
+        },
+        {
+          "key": "Released"
+        }
+      ]
+    },
+    "type": {
+      "name": "Type",
+      "type": "enum",
+      "values": [
+        {
+          "key": "FR",
+          "label": "Functional Requirement"
+        },
+        {
+          "key": "INT",
+          "label": "Interface Requirement"
+        },
+        {
+          "key": "NFR",
+          "label": "Non-func. Requirement"
+        },
+        {
+          "key": "SEC",
+          "label": "Section"
+        },
+        {
+          "key": "INF",
+          "label": "Information"
+        }
+      ]
+    },
+    "verMethod": {
+      "name": "Ver. Method",
+      "type": "enum",
+      "values": [
+        {
+          "key": "T",
+          "label": "Test"
+        },
+        {
+          "key": "D",
+          "label": "Demonstration"
+        },
+        {
+          "key": "I",
+          "label": "Inspection"
+        },
+        {
+          "key": "A",
+          "label": "Analysis"
+        }
+      ]
+    }
+  },
+  "view": {
+    "columns": [
+      {
+        "columnId": "id",
+        "hidden": false,
+        "width": 77
+      },
+      {
+        "attribute": "type",
+        "columnId": "type",
+        "hidden": false,
+        "width": 97
+      },
+      {
+        "columnId": "description",
+        "hidden": false,
+        "width": 372
+      },
+      {
+        "columnId": "discussion",
+        "hidden": true,
+        "width": 190
+      },
+      {
+        "columnId": "links",
+        "hidden": true,
+        "width": 196
+      },
+      {
+        "attribute": "source",
+        "columnId": "source",
+        "hidden": false,
+        "width": 150
+      },
+      {
+        "attribute": "rationale",
+        "columnId": "rationale",
+        "hidden": false,
+        "width": 150
+      },
+      {
+        "attribute": "priority",
+        "columnId": "priority",
+        "hidden": false,
+        "width": 96
+      },
+      {
+        "attribute": "status",
+        "columnId": "status",
+        "hidden": false,
+        "width": 86
+      },
+      {
+        "attribute": "verMethod",
+        "columnId": "verMethod",
+        "hidden": false,
+        "width": 105
+      },
+      {
+        "attribute": "difficulty",
+        "columnId": "difficulty",
+        "hidden": true,
+        "width": 108
+      },
+      {
+        "attribute": "owner",
+        "columnId": "owner",
+        "hidden": true,
+        "width": 106
+      },
+      {
+        "columnId": "attributes",
+        "hidden": true,
+        "width": 300
+      }
+    ]
+  },
+  "metadata": {
+    "format": "2.13"
+  }
+}
